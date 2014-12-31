@@ -11,4 +11,11 @@
 
     <name>XYC Game Plugin Archetype</name>
     <description>An archetype template for Spigot plugins using the XYC Games API.</description>
+
+    <distributionManagement>
+        <repository>
+            <id>xxyy-repo</id>
+            <url>https://server.nowak-at.net/repo/xxyy-public/</url>
+        </repository>
+    </distributionManagement>
 </project>
