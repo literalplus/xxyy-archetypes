@@ -3,20 +3,13 @@ xxyy-archetypes
 This repo contains some archetype templates for commonly-used kinds of Spigot plugins. Remember to customize the project
 name and text in all files.
 
-Cloning
+Compiling
 =======
 ````bash
-git clone https://github.com/xxyy/xxyy-archetypes
+git clone https://github.com/xxyy/xxyy-archetypes.git
+mvn install
 ````
-
-Maven Repo
-==========
-````xml
-<repository>
-  <id>xxyy-public</id>
-  <
-</repository>
-````
+This installs all archetypes into your local repository.
 
 Usage
 =====

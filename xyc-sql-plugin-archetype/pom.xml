@@ -20,11 +20,4 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <distributionManagement>
-        <repository>
-            <id>xxyy-repo</id>
-            <url>http://server.nowak-at.net/repo/xxyy-public/</url>
-        </repository>
-    </distributionManagement>
 </project>
