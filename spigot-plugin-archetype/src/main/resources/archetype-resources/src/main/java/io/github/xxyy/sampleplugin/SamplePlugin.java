@@ -23,7 +23,7 @@ public class SamplePlugin extends JavaPlugin {
     private void initConfig() {
         getConfig().options().copyDefaults(true);
         getConfig().options().header("SamplePlugin config file - Use valid YAML!\n" +
-                "Test your YAMl file using https://yaml-online-parser.appspot.com/ before\n" +
+                "Test your YAML file using https://yaml-online-parser.appspot.com/ before\n" +
                 "saving to ensure you got the syntax right!\n\n" +
                 "If you have trouble configuring this plugin, join #lit on irc.spi.gt, ask\n" +
                 "your question and patiently wait for an answer. If you don't know how to,\n" +
