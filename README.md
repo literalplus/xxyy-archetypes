@@ -6,7 +6,16 @@ name and text in all files.
 Cloning
 =======
 ````bash
-git clone https.//github.com/xxyy/xxyy-archetypes
+git clone https://github.com/xxyy/xxyy-archetypes
+````
+
+Maven Repo
+==========
+````xml
+<repository>
+  <id>xxyy-public</id>
+  <
+</repository>
 ````
 
 Usage
@@ -41,6 +50,10 @@ xyc-plugin-archetype
 --------------------
 A simple Spigot plugin using the XYC API. That API is private and has not been released to the public (yet).
 
-xyc-plugin-archetype
+xyc-sql-plugin-archetype
 --------------------
 A simple Spigot plugin using the XYC SQL API. That API is private and has not been released to the public (yet).
+
+xyc-game-plugin-archetype
+--------------------
+A simple Spigot plugin using the XYC Games API. That API is private and has not been released to the public (yet).
