@@ -3,6 +3,7 @@ package io.github.xxyy.sampleplugin;
 import java.io.File;
 
 import io.github.xxyy.common.xyplugin.SqlXyPlugin;
+import io.github.xxyy.common.sql.SqlConnectable;
 
 /**
  * Briefly describe the purpose of your plugin here.

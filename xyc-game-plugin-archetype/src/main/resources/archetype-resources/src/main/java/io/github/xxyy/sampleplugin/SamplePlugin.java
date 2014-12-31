@@ -1,6 +1,7 @@
 package io.github.xxyy.sampleplugin;
 
 import io.github.xxyy.common.xyplugin.SqlXyGamePlugin;
+import io.github.xxyy.common.sql.SqlConnectable;
 
 import java.io.File;
 
