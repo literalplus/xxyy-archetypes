@@ -40,3 +40,7 @@ a lot of properties which you may need to adjust.
 xyc-plugin-archetype
 --------------------
 A simple Spigot plugin using the XYC API. That API is private and has not been released to the public (yet).
+
+xyc-plugin-archetype
+--------------------
+A simple Spigot plugin using the XYC SQL API. That API is private and has not been released to the public (yet).
