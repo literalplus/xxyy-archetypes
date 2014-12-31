@@ -1,0 +1,17 @@
+#SamplePlugin config file - Use valid YAML!
+#Test your YAML file using https://yaml-online-parser.appspot.com/ before
+#saving to ensure you got the syntax right!
+#
+#If you have trouble configuring this plugin, join #lit on irc.spi.gt, ask
+#your question and patiently wait for an answer. If you don't know how to,
+#just click here: https://irc.spi.gt/iris/?channels=lit
+#
+#Don't send this file to anyone without stripping your SQL credentials first!
+
+# Configure your SQL credentials here
+sql:
+#The SQL host. Format: jdbc:mysql://<Hostname>:<Port>/
+  host: jdbc:mysql://localhost:3306/
+  database: sample
+  user: sample
+  password: pleasechangeme
