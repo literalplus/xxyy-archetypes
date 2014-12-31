@@ -36,3 +36,7 @@ spigot-plugin-archetype
 -----------------------
 A simple Spigot plugin with no additional dependencies, command, listeners or the alike. Includes a rich pom with
 a lot of properties which you may need to adjust.
+
+xyc-plugin-archetype
+--------------------
+A simple Spigot plugin using the XYC API. That API is private and has not been released to the public (yet).
