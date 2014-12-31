@@ -4,18 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>io.github.xxyy.archetype</groupId>
-        <artifactId>archetype-parent</artifactId>
-        <version>1.0</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
+    <groupId>io.github.xxyy.archetype</groupId>
+    <artifactId>archetype-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
 
-    <artifactId>xyc-plugin-archetype</artifactId>
-    <packaging>jar</packaging>
+    <modules>
+        <module>spigot-plugin-archetype</module>
+        <module>xyc-plugin-archetype</module>
+        <module>xyc-sql-plugin-archetype</module>
+        <module>xyc-game-plugin-archetype</module>
+    </modules>
 
-    <name>XYC Plugin Archetype</name>
-    <description>An archetype template for Spigot plugins using the XYC API.</description>
+    <name>Archetype Parent</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
