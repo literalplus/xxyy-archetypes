@@ -13,7 +13,16 @@ This installs all archetypes into your local repository.
 
 Usage
 =====
-I'm still working on this part, if this isn't filled out by Jan 10 2015, please contact me. Thank you!
+To install an archetype, type the following into your favourite shell fork:
+````zsh
+mvn archetype:generate \
+  -DarchetypeGroupId=io.github.xxyy.archetype \
+  -DarchetypeArtifactId=<insert what archetype you want here> \
+  -DarchetypeVersion=1.0 \
+  -DarchetypeRepository=http://repo.nowak-at.net/xxyy-public/
+````
+You can omit `-DarchetypeRepository` if you installed the archetypes into your local Maven repository by following the
+steps detailed in *Compiling*
 
 License
 =======
