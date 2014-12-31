@@ -1,0 +1,15 @@
+name: ${project.artifactId}
+version: ${project.version}-git-${buildNumber}
+description: ${project.description}
+author: Literallie
+main: io.github.xxyy.sampleplugin.SamplePlugin
+#depend: [XYC]
+website: https://xxyy.github.io/
+
+
+commands:
+  acommand:
+    description: This is a fun command
+    usage: /<command> help
+    permission: sampleplugin.acommand
+    aliases: [suchcommand]
