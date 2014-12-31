@@ -2,6 +2,8 @@ package io.github.xxyy.sampleplugin;
 
 import java.io.File;
 
+import io.github.xxyy.common.xyplugin.SqlXyPlugin;
+
 /**
  * Briefly describe the purpose of your plugin here.
  *
