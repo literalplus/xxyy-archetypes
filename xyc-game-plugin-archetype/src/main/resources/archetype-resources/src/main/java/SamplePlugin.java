@@ -1,4 +1,4 @@
-package io.github.xxyy.sampleplugin;
+package ${package};
 
 import io.github.xxyy.common.xyplugin.SqlXyGamePlugin;
 import io.github.xxyy.common.sql.SqlConnectable;
@@ -39,7 +39,7 @@ public class SamplePlugin extends SqlXyGamePlugin {
             setEnabled(false);
             getServer().getConsoleSender().sendMessage("§e~~~~~ Generated SamplePlugin configuration! ~~~~"); //Logger doesn't understand formatting codes
             getServer().getConsoleSender().sendMessage("§ePlease insert your SQL credentials there.");
-            getServer().getConsoleSender().sendMessage("§eFile path: " + new File(getDataFolder()));
+            getServer().getConsoleSender().sendMessage("§eFile path: " + new File(getDataFolder(), "config.yml").getAbsolutePath());
             return;
         }
     }

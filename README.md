@@ -22,7 +22,12 @@ mvn archetype:generate \
   -DarchetypeRepository=http://repo.nowak-at.net/xxyy-public/
 ````
 You can omit `-DarchetypeRepository` if you installed the archetypes into your local Maven repository by following the
-steps detailed in *Compiling*
+steps detailed in *Compiling*. Maven will prompt you to interactively enter some properties for your project.
+
+If you're using [IntelliJ IDEA](https://intellij.com) (you really should!), you can also create projects from its GUI
+at `File -> New Project... -> Maven -> [X] Create from Archetype`. You can add archetypes using the `[Add archetypes...]`
+button. If you've already added your archetype, you can easily find it by clicking on any archetype and typing some
+characters of the name (`xxyy` normally does the job)
 
 License
 =======

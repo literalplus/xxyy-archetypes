@@ -63,7 +63,7 @@
         </dependency>
         <dependency>
             <groupId>io.github.xxyy.common</groupId>
-            <artifactId>xyc-bukkit</artifactId>
+            <artifactId>xyc-games</artifactId>
             <version>${xyc.version}</version>
         </dependency>
     </dependencies>
